@@ -4,7 +4,8 @@
   "description": "React Fullpage Loading package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,16 @@
     "url": "https://github.com/ikashifullah/react-fullpage-loading/issues"
   },
   "homepage": "https://github.com/ikashifullah/react-fullpage-loading#readme",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0"
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
