@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ikashifullah/react-fullpage-loading/issues"
   },
-  "homepage": "https://github.com/ikashifullah/react-fullpage-loading#readme"
+  "homepage": "https://github.com/ikashifullah/react-fullpage-loading#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5"
+  }
 }
